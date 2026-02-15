@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — Ahmed AlSalihi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="hobbies.html" class="nav-link">Hobbies</a>
+  </nav>
+</header>
+
+<main class="page">
+  <div class="profile-card" role="region" aria-labelledby="about-title">
+    <div class="portrait-wrap">
+      <img src="images/imagesportrait.jpg" alt="Portrait of Ahmed AlSalihi" class="portrait">
+    </div>
+
+    <div class="card-content">
+      <h1 id="about-title" class="page-title">About Ahmed AlSalihi</h1>
+
+      <h2>Formal Biography</h2>
+      <p>
+        Ahmed Al Salihi is a lifelong learner whose career spans journalism and education.
+        He began his professional life as a journalist, working with organizations including the U.S. Army
+        and later the Kyodo News Agency. Ahmed rose to lead Kyodo's branch in Iraq. After immigrating to the
+        United States he transitioned into education and taught at the elementary level with Kent School District.
+        Ahmed earned his master's degree at age 56 and continues to inspire students through discipline,
+        empathy, and a passion for lifelong learning. In his free time he enjoys travel and photography.
+      </p>
+
+      <h2>Interview highlights</h2>
+
+      <div class="qa">
+        <p class="question">Tell me about yourself.</p>
+        <p class="answer">I was raised to learn, be responsible and work hard.</p>
+
+        <p class="question">When did you know you loved to travel?</p>
+        <p class="answer">Getting to experience life through others' eyes.</p>
+
+        <p class="question">How did you become interested in photography?</p>
+        <p class="answer">I wanted to remember the things I saw while traveling.</p>
+
+        <p class="question">Why did you go back to school?</p>
+        <p class="answer">Because why should learning end.</p>
+
+        <p class="question">What obstacles did you face going back to school at 56?</p>
+        <p class="answer">Time management and technology.</p>
+
+        <p class="question">What did earning your master's make you feel?</p>
+        <p class="answer">Accomplished and powerful.</p>
+
+        <p class="question">What drives you today?</p>
+        <p class="answer">Curiosity.</p>
+
+        <p class="question">How have family played a role in your success?</p>
+        <p class="answer">They supported me through it all.</p>
+
+        <p class="question">Advice to others who want to learn something new?</p>
+        <p class="answer">You are never too old to learn.</p>
+
+        <p class="question">What would you tell the younger generation?</p>
+        <p class="answer">Stay focused and never stop learning.</p>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  © <span id="year-about"></span> Ahmed AlSalihi — bioSite
+</footer>
+
+<script>
+  document.getElementById('year-about').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

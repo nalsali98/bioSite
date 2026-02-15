@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>bioSite — Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="hobbies.html" class="nav-link">Hobbies</a>
+  </nav>
+</header>
+
+<main class="page">
+  <section class="card">
+    <h1 class="page-title">Welcome</h1>
+
+    <p class="lead">
+      This site introduces <strong>Ahmed AlSalihi</strong> - a journalist, educator, and lifelong learner.
+      It contains a short biography, interview highlights, and a photo gallery of travel and family moments.
+    </p>
+
+    <h2>Highlights</h2>
+    <ul>
+      <li>Career: Journalism (Kyodo), education</li>
+      <li>Interests: Travel, photography, lifelong learning</li>
+      <li>Education: Master's degree earned later in life - lifelong learner</li>
+    </ul>
+
+    <h2>Quick links</h2>
+    <p><a href="about.html">About (formal bio)</a> | <a href="hobbies.html">Hobbies & Photo Gallery</a></p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  © <span id="year"></span> Ahmed AlSalihi - bioSite
+</footer>
+
+<script>
+  // set current year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

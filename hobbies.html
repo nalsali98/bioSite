@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hobbies — Ahmed AlSalihi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="hobbies.html" class="nav-link">Hobbies</a>
+  </nav>
+</header>
+
+<main class="page">
+  <section class="card gallery-card">
+    <h1 class="page-title">Travel & Photography</h1>
+    <p class="lead">Ahmed enjoys travel photography and capturing family moments. Below are sample images from his life and experiences.</p>
+
+    <div class="gallery">
+      <figure>
+        <img src="images/imagesfamily_grad.jpg" alt="Family Graduation">
+        <figcaption>Family Graduation</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/imageshawaii.jpg" alt="Travel in Hawaii">
+        <figcaption>Travel in Hawaii</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/imagesjournalism.jpg" alt="Journalism Career">
+        <figcaption>Journalism Career</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/imagesportrait.jpg" alt="Portrait">
+        <figcaption>Portrait</figcaption>
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  © <span id="year-hobbies"></span> Ahmed AlSalihi — bioSite
+</footer>
+
+<script>document.getElementById('year-hobbies').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
