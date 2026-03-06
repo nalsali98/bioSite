@@ -1,50 +1,79 @@
-<!doctype html>
+<!--
+Name (student): Noor Al Salihi
+Course: CSD 340
+Assignment: Module 10.2 bioSite — Development and GitHub Pages Deployment
+Project subject: Ahmed Al-Salihi (father)
+Description:
+Landing page for bioSite. Student: Noor Al Salihi. Site subject: Ahmed Al-Salihi.
+Contains header organism, navigation, main content organism, image-with-caption organism,
+external link, and footer organism.
+-->
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>bioSite — Home</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<title>bioSite | Home</title>
+<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header class="site-header">
-  <nav class="site-nav">
-    <a href="index.html" class="nav-link">Home</a>
-    <a href="about.html" class="nav-link">About</a>
-    <a href="hobbies.html" class="nav-link">Hobbies</a>
-  </nav>
+<header>
+<h1>Ahmed Al-Salihi</h1>
+<p>A Life of Journalism, Learning, and Inspiration</p>
 </header>
 
-<main class="page">
-  <section class="card">
-    <h1 class="page-title">Welcome</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="hobbies.html">Hobbies</a>
+<a href="https://github.com/nalsali98/bioSite.git" target="_blank">GitHub</a>
+</nav>
 
-    <p class="lead">
-      This site introduces <strong>Ahmed AlSalihi</strong> - a journalist, educator, and lifelong learner.
-      It contains a short biography, interview highlights, and a photo gallery of travel and family moments.
-    </p>
+<main>
 
-    <h2>Highlights</h2>
-    <ul>
-      <li>Career: Journalism (Kyodo), education</li>
-      <li>Interests: Travel, photography, lifelong learning</li>
-      <li>Education: Master's degree earned later in life - lifelong learner</li>
-    </ul>
+<div class="card">
 
-    <h2>Quick links</h2>
-    <p><a href="about.html">About (formal bio)</a> | <a href="hobbies.html">Hobbies & Photo Gallery</a></p>
-  </section>
+<h2>Welcome</h2>
+
+<p>
+Welcome to the bioSite of Ahmed Al-Salihi. This website highlights the life,
+career, and interests of a dedicated journalist, lifelong learner, and family
+man. Through this project I share the story of my father, whose work in
+journalism and passion for education have inspired many people around him.
+</p>
+
+<p>
+Ahmed has spent many years building a career in journalism while always
+valuing education, knowledge, and curiosity about the world. His journey
+demonstrates perseverance, dedication, and a deep commitment to learning.
+</p>
+
+<p>
+Explore the pages of this site to learn more about his life story, professional
+background, and hobbies including travel, photography, and storytelling.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/imagesportrait.jpg" alt="Portrait of Ahmed Al-Salihi" width="350">
+
+<p>
+A portrait of Ahmed Al-Salihi enjoying time outdoors. His positive outlook
+and dedication to learning continue to inspire those around him.
+</p>
+
+</div>
+
 </main>
 
-<footer class="site-footer">
-  © <span id="year"></span> Ahmed AlSalihi - bioSite
+<footer>
+<p>© 2026 Noor Al Salihi | CSD 340 bioSite Project</p>
 </footer>
-
-<script>
-  // set current year
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
 
 </body>
 </html>
